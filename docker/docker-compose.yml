@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   web:
-    image: odoo:17.0
+    image: dingowithfun/odoo-custom:latest  # Tu imagen personalizada en Docker Hub
     depends_on:
       - mydb
     ports:
