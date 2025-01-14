@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Definición de la acción (debe ir antes de ser referenciada en el menú) -->
+    <record id="action_tareas" model="ir.actions.act_window">
+        <field name="name">Tareas</field>
+        <field name="res_model">mi_gestion_tareas.tarea</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Definición de las vistas -->
+    <record id="view_tarea_tree" model="ir.ui.view">
+        <field name="name">tarea.tree</field>
+        <field name="model">mi_gestion_tareas.tarea</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_tarea_form" model="ir.ui.view">
+        <field name="name">tarea.form</field>
+        <field name="model">mi_gestion_tareas.tarea</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                        <field name="state"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Definición de los menús -->
+    <menuitem id="menu_tareas" name="Gestión de Tareas" sequence="10" parent="base.menu_main"/>
+    <menuitem id="menu_tareas_tareas" name="Tareas" parent="menu_tareas" action="action_tareas"/>
+</odoo>
