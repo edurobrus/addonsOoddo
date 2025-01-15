@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: odoo_web_container
+    image: dingowithfun/odoo-custom:latest
+    env_file:
+      - ../.env  # Archivo .env con las variables de entorno
+    expose:
+      - "8069"  # Exponer el puerto interno de Odoo
+    depends_on:
+      - db
+    build:
+      context: ../
+      dockerfile: docker/images/Dockerfile.dev  # Dockerfile para construir la imagen personalizada de Odoo
+    volumes:
+      - ../addons:/mnt/extra-addons  # Montar addons personalizados
+    command: ["sh", "-c", "odoo"]  # Comando por defecto para iniciar Odoo
+    networks:
+      - odoo_network
+
+  db:
+    container_name: postgres_container
+    build:
+      context: ../
+      dockerfile: docker/images/Dockerfile.postgres  # Dockerfile para construir la imagen personalizada de PostgreSQL
+    env_file:
+      - ../.env  # Variables de entorno para configurar PostgreSQL
+    restart: always
+    ports:
+      - "5432:5432"  # Puerto estándar de PostgreSQL
+    volumes:
+      - db_data:/var/lib/postgresql/data  # Persistencia para los datos de la base de datos
+    networks:
+      - odoo_network
+
+  nginx:
+    container_name: nginx_web_server_container
+    image: nginx:latest
+    volumes:
+      - ./nginx/nginx.dev.conf:/etc/nginx/nginx.conf  # Configuración de Nginx
+      - ./nginx/html:/usr/share/nginx/html  # Archivos HTML estáticos (opcional)
+    ports:
+      - "80:80"  # Puerto para el acceso al servidor
+    depends_on:
+      - web
+    networks:
+      - odoo_network
+
+volumes:
+  db_data:  # Volumen persistente para PostgreSQL
+
+networks:
+  odoo_network:  # Red personalizada para los servicios

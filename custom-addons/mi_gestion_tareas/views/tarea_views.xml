@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Definición de la acción -->
+    <record id="action_tareas" model="ir.actions.act_window">
+        <field name="name">Tareas</field>
+        <field name="res_model">mi_gestion_tareas.tarea</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <!-- Vista Form -->
+    <record id="view_tarea_form" model="ir.ui.view">
+        <field name="name">tarea.form</field>
+        <field name="model">mi_gestion_tareas.tarea</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="name"/>
+                <field name="description"/>
+                <field name="state"/>
+            </form>
+        </field>
+    </record>
+
+    <!-- Menús -->
+    <menuitem id="menu_root_tareas" name="Gestión de Tareas"/>
+    <menuitem id="menu_tareas_tareas" name="Tareas" parent="menu_root_tareas" action="action_tareas"/>
+</odoo>

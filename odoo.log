@@ -1,0 +1,72 @@
+2025-01-14 17:03:11,250 32215 INFO ? odoo: Odoo version 18.0 
+2025-01-14 17:03:11,250 32215 INFO ? odoo: Using configuration file at /home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo.conf 
+2025-01-14 17:03:11,250 32215 INFO ? odoo: addons paths: ['/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo/addons', '/home/edurobrus/.local/share/Odoo/addons/18.0', '/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/addons'] 
+2025-01-14 17:03:11,250 32215 INFO ? odoo: database: edurobrus  ; Aquí usa el nombre de usuario correcto de la base de datos@default:default 
+2025-01-14 17:03:11,293 32215 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-01-14 17:03:11,304 32215 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-01-14 17:03:11,377 32215 INFO ? odoo.service.server: HTTP service (werkzeug) running on edurobrus-Thin-GF63-12UC:8069 
+2025-01-14 17:03:11,390 32215 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:03:11,392 32215 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:03:46,910 32215 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-14 17:03:46,911 32215 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-14 17:03:46,925 32215 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2025-01-14 17:04:19,551 32765 INFO ? odoo: Odoo version 18.0 
+2025-01-14 17:04:19,551 32765 INFO ? odoo: Using configuration file at /home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo.conf 
+2025-01-14 17:04:19,551 32765 INFO ? odoo: addons paths: ['/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo/addons', '/home/edurobrus/.local/share/Odoo/addons/18.0', '/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/addons'] 
+2025-01-14 17:04:19,551 32765 INFO ? odoo: database: edurobrus  ; Aquí usa el nombre de usuario correcto de la base de datos@default:default 
+2025-01-14 17:04:19,595 32765 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-01-14 17:04:19,608 32765 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-01-14 17:04:19,678 32765 INFO ? odoo.service.server: HTTP service (werkzeug) running on edurobrus-Thin-GF63-12UC:8069 
+2025-01-14 17:04:19,681 32765 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:04:19,682 32765 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:04:51,276 32765 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-14 17:04:51,277 32765 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-14 17:04:51,717 32765 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2025-01-14 17:05:14,066 33293 INFO ? odoo: Odoo version 18.0 
+2025-01-14 17:05:14,066 33293 INFO ? odoo: Using configuration file at /home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo.conf 
+2025-01-14 17:05:14,066 33293 INFO ? odoo: addons paths: ['/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo/addons', '/home/edurobrus/.local/share/Odoo/addons/18.0', '/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/addons'] 
+2025-01-14 17:05:14,066 33293 INFO ? odoo: database: edurobrus  ; Aquí usa el nombre de usuario correcto de la base de datos@default:default 
+2025-01-14 17:05:14,109 33293 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-01-14 17:05:14,119 33293 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-01-14 17:05:14,200 33293 INFO ? odoo.service.server: HTTP service (werkzeug) running on edurobrus-Thin-GF63-12UC:8069 
+2025-01-14 17:05:14,203 33293 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:05:14,205 33293 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:05:18,464 33293 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-14 17:05:18,465 33293 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-14 17:05:18,709 33293 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2025-01-14 17:06:14,886 33825 INFO ? odoo: Odoo version 18.0 
+2025-01-14 17:06:14,886 33825 INFO ? odoo: Using configuration file at /home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo.conf 
+2025-01-14 17:06:14,886 33825 INFO ? odoo: addons paths: ['/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo/addons', '/home/edurobrus/.local/share/Odoo/addons/18.0', '/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/addons'] 
+2025-01-14 17:06:14,886 33825 INFO ? odoo: database: edurobrus  ; El nombre de usuario@default:default 
+2025-01-14 17:06:14,931 33825 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-01-14 17:06:14,942 33825 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-01-14 17:06:15,018 33825 INFO ? odoo.service.server: HTTP service (werkzeug) running on edurobrus-Thin-GF63-12UC:8069 
+2025-01-14 17:06:15,021 33825 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:06:15,022 33825 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:06:35,048 33825 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-14 17:06:35,048 33825 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-14 17:06:35,548 33825 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2025-01-14 17:09:04,683 35150 INFO ? odoo: Odoo version 18.0 
+2025-01-14 17:09:04,683 35150 INFO ? odoo: Using configuration file at /home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo.conf 
+2025-01-14 17:09:04,683 35150 INFO ? odoo: addons paths: ['/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo/addons', '/home/edurobrus/.local/share/Odoo/addons/18.0', '/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/addons'] 
+2025-01-14 17:09:04,683 35150 INFO ? odoo: database: edurobrus  ; El nombre de usuario@default:default 
+2025-01-14 17:09:04,728 35150 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-01-14 17:09:04,739 35150 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-01-14 17:09:04,813 35150 INFO ? odoo.service.server: HTTP service (werkzeug) running on edurobrus-Thin-GF63-12UC:8069 
+2025-01-14 17:09:04,815 35150 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:09:04,817 35150 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:09:07,341 35150 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-14 17:09:07,342 35150 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-14 17:09:07,820 35150 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
+2025-01-14 17:09:20,230 35347 INFO ? odoo: Odoo version 18.0 
+2025-01-14 17:09:20,230 35347 INFO ? odoo: Using configuration file at /home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo.conf 
+2025-01-14 17:09:20,230 35347 INFO ? odoo: addons paths: ['/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/odoo/addons', '/home/edurobrus/.local/share/Odoo/addons/18.0', '/home/edurobrus/Documentos/GitHub/CARPETA_OODDO/addons'] 
+2025-01-14 17:09:20,230 35347 INFO ? odoo: database: edurobrus  ; El nombre de usuario@default:default 
+2025-01-14 17:09:20,275 35347 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/bin/wkhtmltopdf 
+2025-01-14 17:09:20,289 35347 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltoimage binary at /usr/bin/wkhtmltoimage 
+2025-01-14 17:09:20,362 35347 INFO ? odoo.service.server: HTTP service (werkzeug) running on edurobrus-Thin-GF63-12UC:8069 
+2025-01-14 17:09:20,370 35347 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:09:20,374 35347 INFO ? odoo.sql_db: Connection to the database failed 
+2025-01-14 17:10:03,273 35347 INFO ? odoo.service.server: Initiating shutdown 
+2025-01-14 17:10:03,274 35347 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-01-14 17:10:03,412 35347 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 0 connections  
